@@ -1,1 +1,1 @@
-# Giftastic-app
+# Giftastic-app: An app that uses Jquery and the Ajax method to display Gifs to the DOM when the user clicks a button.
