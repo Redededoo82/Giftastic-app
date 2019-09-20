@@ -11,9 +11,10 @@
 </head>
 
 <body>
+
     <div id="buttonContainer">
         <button data-search="skateboarding">Skateboarding</button>
-        <button data-search="fire eating">FireEating</button>
+        <button data-search="freestyle walking">freestyle walking</button>
         <button data-search="spiders">Spiders</button>
         <button data-search="praying mantis">PrayingMantis</button>
         <button data-search="Gillian Anderson">GillianAnderson</button>
@@ -21,8 +22,16 @@
         <button data-search="Taekwondo">Taekwondo</button>
         <button data-search="Drums">Drums</button>
     </div>
-    <input id="searchtext" type="text" placeholder="Whatcha lookin fo?">
-    <button id="searchgifs" type="submit">submit</button>
+    <br>
+    
+    <br>
+    <form id="topic-form">
+            <label for="topic-input">Add a topic ---></label>
+            <input type="text" id="topic-input"><br>
+            <input id="add-topic" type="submit" placeholder="whatcha lookin fo?">
+          </form>
+      
+    
     <div id="gifs"></div>
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"
         integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
