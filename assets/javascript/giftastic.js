@@ -3,7 +3,7 @@
 
 
 //variable for the topics
-var topics = ["skateboarding", "juggling", "spiders", "praying mantis", "Gillian Anderson", "Battlefield 4", "taekwondo", "Drums"];
+var topics = ["skateboarding", "freestyle walking", "spiders", "praying mantis", "Gillian Anderson", "Battlefield 4", "taekwondo", "Drums"];
 
 
 
