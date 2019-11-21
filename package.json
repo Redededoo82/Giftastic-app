@@ -2,8 +2,9 @@
   "name": "giftastic-app",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
+    "start": "node server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -15,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/Redededoo82/Giftastic-app/issues"
   },
-  "homepage": "https://github.com/Redededoo82/Giftastic-app#readme"
+  "homepage": "https://github.com/Redededoo82/Giftastic-app#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }
